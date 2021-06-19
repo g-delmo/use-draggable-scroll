@@ -4,6 +4,16 @@ React hook to add draggability to scrollable content easily.
 
 ![](./demo.gif)
 
+### Installation
+
+```
+yarn add use-draggable-scroll
+```
+or
+```
+npm install use-draggable-scroll
+```
+
 ### Usage
 
 ```tsx
