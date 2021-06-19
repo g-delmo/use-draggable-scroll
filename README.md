@@ -1,16 +1,16 @@
-# use-drag-scroll
+# use-draggable-scroll
 
 React hook to add draggability to scrollable content easily.
 
 ### Usage
 
 ```tsx
-import { useDragScroll } from 'use-drag-scroll';
+import { useDraggableScroll } from 'use-draggable-scroll';
 
 const Component = () => {
   const ref = useRef(null);
 
-  const { onMouseDown } = useDragScroll(ref);
+  const { onMouseDown } = useDraggableScroll(ref);
 
   return (
     <div ref={ref} onMouseDown={onMouseDown}>
@@ -27,5 +27,5 @@ const Component = () => {
 You can specify the drag direction that is allowed (`vertical`, `horizontal` or `both`(default))
 
 ```tsx
-const { onMouseDown } = useDragScroll(ref, { direction: 'vertical' });
+const { onMouseDown } = useDraggableScroll(ref, { direction: 'vertical' });
 ```

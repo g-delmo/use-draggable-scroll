@@ -1,6 +1,6 @@
 import { RefObject } from 'react';
 
-export default function useDragScroll(
+export default function useDraggableScroll(
   ref: RefObject<HTMLElement>,
   options: {
     direction?: 'vertical' | 'horizontal' | 'both';
@@ -8,7 +8,7 @@ export default function useDragScroll(
 ) {
   if (process.env.NODE_ENV === 'development') {
     if (typeof ref !== 'object' || typeof ref.current === 'undefined') {
-      console.error('`useDragScroll` expects a single ref argument.');
+      console.error('`useDraggableScroll` expects a single ref argument.');
     }
   }
 
