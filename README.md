@@ -2,7 +2,7 @@
 
 React hook to add draggability to scrollable content easily.
 
-![](./demo.mp4)
+![](./demo.gif)
 
 ### Usage
 
