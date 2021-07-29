@@ -17,7 +17,7 @@ npm install use-draggable-scroll
 ### Usage
 
 ```tsx
-import { useDraggableScroll } from 'use-draggable-scroll';
+import useDraggableScroll from 'use-draggable-scroll';
 
 const Component = () => {
   const ref = useRef(null);
